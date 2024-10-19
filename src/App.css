@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+/* src/App.css */
+
+/* Font and Background */
+body {
+  background-color: #1e1e2f; /* Dark blue background */
+  color: #c9d1d9; /* Light text */
+  font-family: 'Source Code Pro', monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar */
+.navbar {
+  background-color: #2d2d44;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-dark .navbar-nav .nav-link {
+  color: #f1f1f1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Headings and Sections */
+h1, h2 {
+  color: #58a6ff; /* Light blue for headings */
+}
+
+.text-center {
+  margin-top: 30px;
+}
+
+/* Home Section */
+.home-section p {
+  font-size: 1.2em;
+  color: #8b949e;
+}
+
+/* Skills Section */
+.skills-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.skill-item {
+  text-align: center;
+  color: #f1f1f1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skill-item p {
+  margin-top: 10px;
+}
+
+/* Contact Form */
+.contact-section .contact-form {
+  background-color: #2d2d44;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn-contact {
+  background-color: #58a6ff;
+  border: none;
+}
+
+/* Submission Success */
+.success-section {
+  margin-top: 30px;
+}
+
+.success-section p {
+  font-size: 1.1em;
+  color: #c9d1d9;
 }
