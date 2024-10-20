@@ -2,7 +2,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faLaptopCode, faDatabase, faServer } from '@fortawesome/free-solid-svg-icons';
-
+//icons
 const Skills = () => {
   return (
     <div className="text-center skills-section">
