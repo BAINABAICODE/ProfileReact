@@ -4,8 +4,8 @@ import React from 'react';
 const Home = () => {
   return (
     <div className="text-center home-section">
-      <h1>Hello, I'm a Software Developer</h1>
-      <p>Passionate about building impactful web applications and solving complex problems through code.</p>
+      <h1>Hello, I am Languita Nilbert, a Software Developer and a dedicated 3CS B student.</h1>
+      <p>I enjoy making useful web applications and am good at solving difficult problems with code.</p>
     </div>
   );
 };

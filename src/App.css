@@ -68,3 +68,27 @@ h1, h2 {
   font-size: 1.1em;
   color: #c9d1d9;
 }
+
+
+
+/* src/App.css */
+.navbar-brand img {
+  border-radius: 50%;  /* Optional: makes the image round */
+  object-fit: cover;   /* Ensures the image keeps its aspect ratio */
+}
+
+.nav-link {
+  transition: background-color 0.3s ease, border-radius 0.3s ease; /* Add transition for border-radius */
+}
+
+/* Hover style */
+.nav-link:hover {
+  background-color: lightblue; /* Hover color */
+  border-radius: 5px; /* Adjust the radius as needed */
+}
+
+/* Active style */
+.nav-link.active {
+  background-color: lightblue; /* Active color when clicked */
+  border-radius: 5px; /* Keep the radius for the active state */
+}

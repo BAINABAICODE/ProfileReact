@@ -6,7 +6,7 @@ import { faCode, faLaptopCode, faDatabase, faServer } from '@fortawesome/free-so
 const Skills = () => {
   return (
     <div className="text-center skills-section">
-      <h2>Technical Skills</h2>
+      <h2>Skills</h2>
       <div className="skills-list">
         <div className="skill-item">
           <FontAwesomeIcon icon={faCode} size="3x" />

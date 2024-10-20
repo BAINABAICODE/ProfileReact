@@ -6,8 +6,8 @@ const About = () => {
     <div className="text-center about-section">
       <h2>About Me</h2>
       <p>
-        I’m a software developer with a passion for clean code, scalable architectures, and new technologies. I enjoy learning
-        new programming languages and frameworks, and love contributing to open-source projects.
+      I’m a software developer who likes writing clean code and building systems. 
+      I enjoy learning new programming languages and helping with open-source projects.
       </p>
     </div>
   );
