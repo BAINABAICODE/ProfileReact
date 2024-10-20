@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom';
 const SubmissionSuccess = () => {
   const { state } = useLocation();
   const { formData } = state || { formData: {} };
-
+//...
   return (
     <div className="text-center success-section">
       <h2>Thank you, {formData.name}!</h2>
