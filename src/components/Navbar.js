@@ -6,7 +6,7 @@ import './NavbarComponent.css'; // Import your CSS file
 
 const NavbarComponent = () => {
     const location = useLocation(); // Get the current location
-
+//
     return (
         <Navbar bg="light" expand="lg">
             <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">

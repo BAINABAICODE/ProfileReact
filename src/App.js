@@ -10,7 +10,7 @@ import SubmissionSuccess from './components/SubmissionSuccess';
 import 'bootstrap/dist/css/bootstrap.min.css';  // Bootstrap styles
 import './App.css';  // Custom CSS
 import profileLogo from './assets/profile.png';  // Import the profile image
-
+//
 const App = () => {
   return (
     <Router>
